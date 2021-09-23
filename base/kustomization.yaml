@@ -13,13 +13,12 @@ namespace: argocd-sample-app
 images:
 - name: organization-image
   newName: harbor.tanzu.be/library/iso-organization-service
-  newTag: b14.20210923.134754
+  newTag: b15.20210923.161231
 
 - name: department-image
   newName: harbor.tanzu.be/library/iso-department-service
-  newTag: b14.20210923.134754
+  newTag: b15.20210923.161231
 
 - name: employee-image
   newName: harbor.tanzu.be/library/iso-employee-service
-  newTag: b14.20210923.134754
-  
+  newTag: b15.20210923.161231
